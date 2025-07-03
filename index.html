@@ -9,12 +9,12 @@
   <meta name="author" content="Knovon" />
   <meta property="og:title" content="Knovon AI Research" />
   <meta property="og:description" content="Discover how Knovon is shaping the future of AI through research and innovation." />
-  <meta property="og:image" content="https://asset.knovon.net/Knovon_white.png" />
+  <meta property="og:image" content="https://asset.knovon.net/Knovon_black.png" />
   <meta property="og:url" content="https://knovon.org/ai" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Knovon AI Research" />
   <meta name="twitter:description" content="Explore the frontier of AI technology at Knovon." />
-  <meta name="twitter:image" content="https://asset.knovon.net/Knovon_white.png" />
+  <meta name="twitter:image" content="https://asset.knovon.net/Knovon_black.png" />
   <style>
     :root {
       --gradient-start: #1c1c1e;
@@ -29,25 +29,20 @@
       box-sizing: border-box;
     }
 
-    body, html {
+    html, body {
+      width: 100%;
       height: 100%;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
       color: var(--text-color);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      overflow-x: hidden;
     }
 
     .header {
-      position: absolute;
+      position: fixed;
       top: 20px;
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-      padding: 0 30px;
+      right: 30px;
+      z-index: 1000;
     }
 
     .header a {
@@ -65,15 +60,20 @@
     }
 
     .container {
-      padding: 40px 20px;
-      max-width: 800px;
+      min-height: 100vh;
+      padding: 100px 20px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
 
     .logo {
-      display: block;
-      margin: 0 auto 40px;
-      width: 160px;
-      max-width: 60vw;
+      width: 180px;
+      max-width: 80vw;
+      height: auto;
+      margin-bottom: 40px;
     }
 
     h1 {
@@ -97,20 +97,27 @@
     p {
       font-size: 1.25rem;
       line-height: 1.6;
+      max-width: 700px;
       opacity: 0.9;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
 
       p {
         font-size: 1rem;
+        padding: 0 10px;
+      }
+
+      .logo {
+        width: 140px;
       }
 
       .header {
-        justify-content: center;
+        top: 15px;
+        right: 20px;
       }
     }
   </style>
@@ -120,7 +127,7 @@
     <a href="/investors">Investors</a>
   </div>
   <div class="container">
-    <img class="logo" src="https://asset.knovon.net/Knovon_white.png" alt="Knovon Logo">
+    <img class="logo" src="https://asset.knovon.net/Knovon_black.png" alt="Knovon Logo">
     <h1>Welcome to Knovon AI Research</h1>
     <p>
       We are exploring the boundaries of artificial intelligence to better understand our world and shape the future. Our research spans intelligent interfaces, knowledge processing, and ethical AI innovation—making technology more human.
