@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knovon AI Research</title>
+  <meta name="description" content="Explore Knovon's AI Research division—dedicated to pushing the boundaries of artificial intelligence, ethical machine learning, and intuitive digital intelligence." />
+  <meta name="keywords" content="Knovon, AI Research, Artificial Intelligence, Machine Learning, Ethical AI, Smart Technology, Knovon AI" />
+  <meta name="author" content="Knovon" />
+  <meta property="og:title" content="Knovon AI Research" />
+  <meta property="og:description" content="Discover how Knovon is shaping the future of AI through research and innovation." />
+  <meta property="og:image" content="https://asset.knovon.net/Knovon_white.png" />
+  <meta property="og:url" content="https://knovon.org/ai" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Knovon AI Research" />
+  <meta name="twitter:description" content="Explore the frontier of AI technology at Knovon." />
+  <meta name="twitter:image" content="https://asset.knovon.net/Knovon_white.png" />
+  <style>
+    :root {
+      --gradient-start: #1c1c1e;
+      --gradient-end: #2c2c2e;
+      --accent: #5e5ce6;
+      --text-color: white;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 800px;
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 40px;
+      width: 160px;
+      max-width: 60vw;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #fcd34d, #60a5fa);
+      background-size: 400% 400%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glowflow 8s ease infinite;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.4), 0 0 30px rgba(94, 92, 230, 0.5);
+    }
+
+    @keyframes glowflow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="https://asset.knovon.net/Knovon_white.png" alt="Knovon Logo">
+    <h1>Welcome to Knovon AI Research</h1>
+    <p>
+      We are exploring the boundaries of artificial intelligence to better understand our world and shape the future. Our research spans intelligent interfaces, knowledge processing, and ethical AI innovation—making technology more human.
+    </p>
+  </div>
+</body>
+</html>
